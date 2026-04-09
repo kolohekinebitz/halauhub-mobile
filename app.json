@@ -19,7 +19,8 @@
       }
     },
     "android": {
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.halauhub.app"
     },
     "plugins": [
       "expo-router",
@@ -29,6 +30,12 @@
     "experiments": {
       "typedRoutes": true
     },
-    "icon": "./icon.png"
+    "icon": "./icon.png",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e611f063-4384-43b5-a51d-5c207a6e5050"
+      }
+    }
   }
 }
