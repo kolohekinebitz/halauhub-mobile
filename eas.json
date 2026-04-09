@@ -10,9 +10,15 @@
         "simulator": true
       }
     },
-    "preview": {
-      "distribution": "internal"
-    },
+   "preview": {
+  "distribution": "internal",
+  "android": {
+    "buildType": "apk"
+  },
+  "env": {
+    "EXPO_NO_PREBUILD": "1"
+  }
+}
     "production": {
       "env": {
         "EXPO_PUBLIC_FIREBASE_APP_ID": "1:322418627097:web:7c6b6a66aae4109aaad088",
